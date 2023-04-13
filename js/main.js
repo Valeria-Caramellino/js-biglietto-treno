@@ -23,7 +23,7 @@ if ( eta < 18 ){
     let risultato18 = Number (prezzo18.toFixed(2));
     alert (`${risultato18.toFixed(2)}`);
 }
-else if ( eta > 18 && eta < 64 ) {
+else if ( eta > 17 && eta < 65 ) {
     let prezzoStandard = ( kmDaPercorrere * 0.21 );
     let risultatoStandard = Number (prezzoStandard.toFixed(2));
     alert (`${risultatoStandard.toFixed(2)}`);
