@@ -27,10 +27,9 @@ else if ( eta > 17 && eta < 65 ) {
     let prezzoStandard = ( kmDaPercorrere * 0.21 );
     let risultatoStandard = Number (prezzoStandard.toFixed(2));
     alert (`${risultatoStandard.toFixed(2)}`);
-}
-else ( eta > 65 ); {
+} 
+else {
     let prezzo65 = ( kmDaPercorrere * risultato40 );
     let risultato65 = Number (prezzo65.toFixed(2));
     alert (`${risultato65.toFixed(2)}`);
 }
-
